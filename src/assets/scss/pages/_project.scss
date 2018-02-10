@@ -1,0 +1,52 @@
+.SingleProject {
+  color: #fff;
+  font-size: 18px;
+
+  &-header {
+    text-align: center;
+    margin: 0 0 30px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  &-actions {
+    padding: 2em 0 2em;
+    text-align: center;
+  }
+
+  &-name {
+    font-size: 24px;
+    margin: 18px 0;
+  }
+  
+  a { 
+    color: #fff;
+  }
+
+  .technologies {
+    line-height: 2.5em;
+  }
+
+  .tag {
+    line-height: 1.9em;
+    display: inline-block;
+    color: $purp;
+    background: $lightGray;
+    border-radius: 5px;
+    padding:3px 5px ;
+    & + .tag {
+      margin-left: 3px;
+    }
+  }
+
+  .col-xs-6 {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    & + .col-xs-6 {
+      padding-left: 30px;
+    }
+  }
+
+}

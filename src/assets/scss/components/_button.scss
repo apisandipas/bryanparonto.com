@@ -1,0 +1,31 @@
+.Button {
+  background-color: rgba(22,35,80,0.4);
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.5 ease-in;
+
+  &:hover {
+    background-color: rgba(22,35,80,0.8);
+  }
+
+  & + .Button {
+    margin-left: 1em;
+  }
+
+  &--light {
+    color: $purp!important;
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+  }
+
+  &--light:hover,
+  &--light:focus,
+  &--light:active {
+    color: #333;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.8);
+  }
+}

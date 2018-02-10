@@ -1,0 +1,73 @@
+{
+  "nerdpress": {
+    "url": "https://github.com/apisandipas/nerdpress",
+    "displayUrl": "NERDPress",
+    "name":"NERDPress",
+    "agency": "N/A",
+    "description":  "NERDPress is the working title for a very young CMS concieved by myself as an ongoing sideproject. ",
+    "longDescription": "NERDPress is the working title for a very young CMS concieved by myself as an ongoing sideproject. <br/><br/> NERDPress consists on two projects in one; A JSON API written on top of Express on node as well as a front-end written in React. <br/><br/>Utilizing React's server-side rendering capabilities, the state is computed server-side via Redux and React Router. Once its determined which data needs to be fetched, the data is serilized as raw JSON and embedded in the html during in the initial rendering of the app. When the React app boots up on the client-side, the initial data is used to rehydrate the state into the Redux stores. ",
+    "technologies": ["React", "Redux", "SCSS", "ES2015", "Webpack", "Node.js", "Express"]
+  },
+  "zap2it": {
+    "url": "https://tvlistings.zap2it.com/?aid=gapzap",
+    "displayUrl": "www.zap2it.com",
+    "name":"Zap2it",
+    "agency": "Doejo",
+    "description":  "The new Zap2It TV Listings grid is built on React with a custom flux implementaiton utilizing Backbone.",
+    "longDescription": "Zap2it is a television listings and entertainment website owned by Tribune Media. They came to Doejo in need of a rebuilt television listing grid. React hot new tech at the time and I wanted to build something to showcase it. <br/><br/> Utilizing Backbone models as the stores, it uses Facebook's Flux architecture for state management. (This was before Redux had hit the scene). <br/><br/> Additionally, I built the backend using Express and Node.js with Redis for caching. Easily one of my favorite projects I've worked on, I learned a ton building it.",
+    "technologies": ["React", "Backbone", "SCSS", "Gulp", "Browserify", "Node.js", "Express", "Redis"]
+  },
+  "chicago-ima": {
+    "url": "https://www.chicagoima.org/",
+    "displayUrl": "www.chicagoima.org",
+    "name":"Chicago Interactive Marketing Association",
+    "agency": "Doejo",
+    "description": "Migration from Drupal to WordPress with integrations to Eventbrite, Facebook & Braintree.",
+    "longDescription": "The Chicago Interactive Marketing Association came to Doejo for a new website. They wanted to migrate off their Drupal instance on onto a custom WordPress theme. <br/><br/>I utilized a WordPress framework called Timber, which allows for a more MVC-like development experience and uses the Twig templating language, which allowed for a much cleaner seperation between markup and custom logic <br/><br/> The theme included a number of features including a job board and event management capabilities through integration with the Eventbrite API. It uses Braintree payment processing and the Facebook API for event photo albums",
+    "technologies": ["WordPress", "Timber", "Twig", "SCSS", "jQuery", "Grunt", "Facebook API", "Eventbrite API", "Braintree API"]
+  },
+  "spendout": {
+    "url": "https://bitbucket.org/apis_and_ipas/spendout-web-client",
+    "displayUrl": "www.spendout.com",
+    "name":"Spendout",
+    "agency": "Doejo",
+    "description": "I lead front end development for this expense tracking SaaS application built on AngularJS, Browserify and Gulp.",
+    "longDescription": "Spendout was a sideproject created at Doejo. It was an expense tracking system sold as a SaaS platform.<br/><br/> I lead front-end development for this AngularJS application which deploys to Amazon S3 for hosting as a static single-page application. Unfortunately, Spendout is no more, but you can view the source at the link below.",
+    "technologies": ["AngularJS", "SCSS", "Gulp", "Browserify", "Amazon S3"]
+  },
+  "hack-the-hits": {
+    "url": "http://hackthehits.redbull.com/",
+    "displayUrl": "hackthehits.redbull.com",
+    "name":"Hack The Hits",
+    "agency": "The Program",
+    "description": "Hack The Hits is an annual hackthon event held by Red Bull. I got to do the event site this year through the Program.",
+    "longDescription": "Hack The Hits is an annual hackthon event held by Red Bull. I built this single-page site which simple static HTML and SCSS.",
+    "technologies": ["HTML5", "SCSS", "ES2015"]
+  },
+  "earn-your-name": {
+    "url": "http://earnyour.name/",
+    "displayUrl": "earnyour.name",
+    "name":"Earn Your Name",
+    "agency": "The Program",
+    "description": "Earn Your Name was a passion project from The Program. Built utilizing the Strava API, and React/Redux. Users sync up their Strava stats to generate a customized poster.",
+    "technologies": ["React", "Redux", "HTML5 Canvas", "SCSS", "Ruby", "Strava API"]
+  },
+  "freethink": {
+    "url": "http://www.freethinkmedia.com/",
+    "displayUrl": "www.freethinkmedia.com",
+    "name":"Freethink",
+    "agency": "Doejo",
+    "description": "Freethink Media, an engaging new content company needed a new site. I was the sole developer on this WordPress solution while at Doejo.",
+    "technologies": ["WordPress", "HTML5", "SCSS", "jQuery", "Gulp", "Browserify"]
+  },
+  "aj-capital": {
+    "url": "http://www.ajcpt.com",
+    "displayUrl": "www.ajcpt.com",
+    "name":"AJ Capital Partners",
+    "agency": "Doejo",
+    "description": "Client portal developed on Ruby on Rails, with accompanying single-page brochure site. ",
+    "technologies": ["Ruby on Rails", "HTML5", "SCSS", "jQuery"]
+  }
+}
+  
+   

@@ -1,0 +1,32 @@
+.Footer {
+  overflow: hidden;
+  padding: 2em;
+  font-size: 14px;
+  .copyright {
+    float: left;
+    width: 50%;
+    display: inline-block;
+  }
+
+  .footer-nav {
+    float: right;
+    width: 50%;
+ 
+    ul {
+ 
+      padding-left: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+    li {
+      display: inline-block;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      & + li {
+        margin-left: 1em;
+      }
+    }
+  }
+}
