@@ -43,9 +43,22 @@
   .col-xs-6 {
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 100%;
     & + .col-xs-6 {
       padding-left: 30px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .col-xs-6 {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+ 
+    .col-xs-6 {
+      width: 50%;
     }
   }
 
